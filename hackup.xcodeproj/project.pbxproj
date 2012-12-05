@@ -7,31 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C561029D166DFCAC00055568 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C561029C166DFCAC00055568 /* UIKit.framework */; };
 		C561029F166DFCAC00055568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C561029E166DFCAC00055568 /* Foundation.framework */; };
-		C56102A1166DFCAC00055568 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56102A0166DFCAC00055568 /* CoreGraphics.framework */; };
-		C56102A7166DFCAD00055568 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C56102A5166DFCAD00055568 /* InfoPlist.strings */; };
-		C56102A9166DFCAD00055568 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C56102A8166DFCAD00055568 /* main.m */; };
-		C56102AD166DFCAD00055568 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C56102AC166DFCAD00055568 /* AppDelegate.m */; };
-		C56102AF166DFCAD00055568 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C56102AE166DFCAD00055568 /* Default.png */; };
-		C56102B1166DFCAD00055568 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C56102B0166DFCAD00055568 /* Default@2x.png */; };
-		C56102B3166DFCAD00055568 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C56102B2166DFCAD00055568 /* Default-568h@2x.png */; };
+		C56102A9166DFCAD00055568 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = C56102A8166DFCAD00055568 /* main.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C5610298166DFCAC00055568 /* hackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C561029C166DFCAC00055568 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5610298166DFCAC00055568 /* hackup.console */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackup.console; sourceTree = BUILT_PRODUCTS_DIR; };
 		C561029E166DFCAC00055568 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C56102A0166DFCAC00055568 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C56102A4166DFCAD00055568 /* hackup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hackup-Info.plist"; sourceTree = "<group>"; };
-		C56102A6166DFCAD00055568 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C56102A8166DFCAD00055568 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C56102A8166DFCAD00055568 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		C56102AA166DFCAD00055568 /* hackup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hackup-Prefix.pch"; sourceTree = "<group>"; };
-		C56102AB166DFCAD00055568 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C56102AC166DFCAD00055568 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C56102AE166DFCAD00055568 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		C56102B0166DFCAD00055568 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		C56102B2166DFCAD00055568 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C561029D166DFCAC00055568 /* UIKit.framework in Frameworks */,
 				C561029F166DFCAC00055568 /* Foundation.framework in Frameworks */,
-				C56102A1166DFCAC00055568 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +42,7 @@
 		C5610299166DFCAC00055568 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5610298166DFCAC00055568 /* hackup.app */,
+				C5610298166DFCAC00055568 /* hackup.console */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,9 +50,7 @@
 		C561029B166DFCAC00055568 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C561029C166DFCAC00055568 /* UIKit.framework */,
 				C561029E166DFCAC00055568 /* Foundation.framework */,
-				C56102A0166DFCAC00055568 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,8 +58,6 @@
 		C56102A2166DFCAC00055568 /* hackup */ = {
 			isa = PBXGroup;
 			children = (
-				C56102AB166DFCAD00055568 /* AppDelegate.h */,
-				C56102AC166DFCAD00055568 /* AppDelegate.m */,
 				C56102A3166DFCAD00055568 /* Supporting Files */,
 			);
 			path = hackup;
@@ -88,13 +66,8 @@
 		C56102A3166DFCAD00055568 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C56102A4166DFCAD00055568 /* hackup-Info.plist */,
-				C56102A5166DFCAD00055568 /* InfoPlist.strings */,
-				C56102A8166DFCAD00055568 /* main.m */,
+				C56102A8166DFCAD00055568 /* main.mm */,
 				C56102AA166DFCAD00055568 /* hackup-Prefix.pch */,
-				C56102AE166DFCAD00055568 /* Default.png */,
-				C56102B0166DFCAD00055568 /* Default@2x.png */,
-				C56102B2166DFCAD00055568 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -116,7 +89,7 @@
 			);
 			name = hackup;
 			productName = hackup;
-			productReference = C5610298166DFCAC00055568 /* hackup.app */;
+			productReference = C5610298166DFCAC00055568 /* hackup.console */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,10 +123,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C56102A7166DFCAD00055568 /* InfoPlist.strings in Resources */,
-				C56102AF166DFCAD00055568 /* Default.png in Resources */,
-				C56102B1166DFCAD00055568 /* Default@2x.png in Resources */,
-				C56102B3166DFCAD00055568 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,23 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C56102A9166DFCAD00055568 /* main.m in Sources */,
-				C56102AD166DFCAD00055568 /* AppDelegate.m in Sources */,
+				C56102A9166DFCAD00055568 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C56102A5166DFCAD00055568 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C56102A6166DFCAD00055568 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C56102B4166DFCAD00055568 /* Debug */ = {
@@ -236,22 +193,26 @@
 		C56102B7166DFCAD00055568 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hackup/hackup-Prefix.pch";
-				INFOPLIST_FILE = "hackup/hackup-Info.plist";
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				WRAPPER_EXTENSION = console;
 			};
 			name = Debug;
 		};
 		C56102B8166DFCAD00055568 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hackup/hackup-Prefix.pch";
-				INFOPLIST_FILE = "hackup/hackup-Info.plist";
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				WRAPPER_EXTENSION = console;
 			};
 			name = Release;
 		};
@@ -274,6 +235,7 @@
 				C56102B8166DFCAD00055568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
